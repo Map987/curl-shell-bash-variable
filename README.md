@@ -21,7 +21,7 @@ echo $curl_dtr | jq -r '.data.featuredContentList.featured_content_list[].sectio
 echo $curl_dtr | jq -r '.data.featuredContentList.featured_content_list[].section_content_list.content_list[].posters.mobile_apps[].file_url' | xargs -n 1 curl -O
 ```
 
-使用 curl_output=$(curl x.com "$token")包裹单行或者多行命令，然后echo $curl_output打印
+使用双引号， curl_output=$(curl x.com "$token")包裹单行或者多行命令，然后echo $curl_output打印
 
 ```shell
 ok="okkk"

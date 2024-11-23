@@ -11,9 +11,6 @@ curl_dtr=$(curl 'https://apigateway.muvi.com/content' \
   -H "authorization: Bearer $token" \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
-  -H 'origin: https://nymey.com' \
-  -H 'pragma: no-cache' \
-  -H 'referer: https://nymey.com/' \
   -H 'sec-ch-ua: "Not-A.Brand";v="99", "Chromium";v="124"' \
   -H 'sec-ch-ua-mobile: ?1' \
   -H 'sec-ch-ua-platform: "Android"' \
